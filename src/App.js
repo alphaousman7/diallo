@@ -7,11 +7,14 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import Video from "./components/Video";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <div className="App bg-green-600">
 
 <NavBar/>
+
 <Home/>
 <About/>
 <SocialLinks/>

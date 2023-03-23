@@ -38,7 +38,7 @@ const links=[//on a le tableau de nos 5 liens
 
 ]
   return (//la bar de nav
-    <div className='flex justify-between items-center w-full h-18 px-5 text-yellow-50 bg-blue-200 fixed'>
+    <div className='flex justify-between items-center w-full h-18 px-5 text-yellow-50 bg-blue-400 fixed'>
         <div className=' flex'>
             <h1 className=' text-black font-bold hover:scale-105 duration-200 text-5xl font-signature ml-1'>Alpha ousmane</h1>
            <GiBurningPassion size={60}  className=' text-black'/> 
